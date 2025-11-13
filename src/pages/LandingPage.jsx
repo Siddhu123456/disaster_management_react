@@ -257,7 +257,7 @@ export default function LandingPage() {
             <div>
               <div className="footer-brand">
                 <Shield size={24} color="#dc2626" />
-                <span className="footer-brand-text">DisasterHub</span>
+                <span className="footer-brand-text">DisasterManagement</span>
               </div>
               <p className="footer-description">
                 Connecting communities for faster disaster response and recovery.
@@ -283,13 +283,13 @@ export default function LandingPage() {
               <h4 className="footer-title">Contact</h4>
               <div className="footer-links">
                 <div>Emergency: 911</div>
-                <div>Support: support@disasterhub.com</div>
-                <div>Admin: admin@disasterhub.com</div>
+                <div>Support: support@disastermanagement.com</div>
+                <div>Admin: admin@disastermanagement.com</div>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2025 DisasterHub. Built to save lives and strengthen communities.</p>
+            <p>&copy; 2025 DisasterManagement. Built to save lives and strengthen communities.</p>
           </div>
         </div>
       </footer>
