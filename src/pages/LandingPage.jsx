@@ -22,7 +22,7 @@ export default function LandingPage() {
           <div className="nav-content">
             <div className="nav-logo">
               <Shield size={32} color="#dc2626" />
-              <span className="nav-logo-text">DisasterHub</span>
+              <span className="nav-logo-text">DisasterManagment</span>
             </div>
             
             <div className="nav-links">
