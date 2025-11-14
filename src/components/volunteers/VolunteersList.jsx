@@ -36,9 +36,9 @@ const VolunteersList = ({ volunteers }) => {
                     {volunteer.isAvailable ? 'Available' : 'Unavailable'}
                   </span>
                 </td>
-                <td className="td-mono">{volunteer.userProfile.phone || 'N/A'}</td>
+                <td className="td-mono">{volunteer.phone || 'N/A'}</td>
                 <td>
-                  <Link to={`/volunteers/${volunteer.userId || volunteer.id || volunteer._id}`} className="action-link">
+                  <Link to={`/admin/volunteers/${volunteer.userId || volunteer.id || volunteer._id}`} className="action-link">
                     View Profile
                   </Link>
                 </td>
