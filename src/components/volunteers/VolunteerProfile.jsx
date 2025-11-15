@@ -32,7 +32,7 @@ const VolunteerProfile = ({ profile, history }) => {
           <div className="vp-info">
             <p><strong>Name:</strong> {profile.userProfile.name}</p>
             <p><strong>Email:</strong> {profile.userProfile.email}</p>
-            <p><strong>Phone:</strong> {profile.phone || 'Not provided'}</p>
+            <p><strong>Phone:</strong> {profile.userProfile.phone || 'Not provided'}</p>
           </div>
         </section>
 
@@ -83,7 +83,7 @@ const VolunteerProfile = ({ profile, history }) => {
                       </td>
                       <td>{incident.resolvedAt ? new Date(incident.resolvedAt).toLocaleDateString() : 'Pending'}</td>
                       <td>
-                        <Link to={`/admin/incidents/${incident.id}`} className="vp-link">
+                        <Link to={`/incidents/${incident.id}`} className="vp-link">
                           View Incident
                         </Link>
                       </td>
